@@ -1,0 +1,18 @@
+// Lista de oraciones
+var oraciones = [
+  "¡Hola!",
+  "¿Cómo estás?",
+  "¡Qué tengas un buen día!",
+  "Me gusta programar en JavaScript.",
+  "¿Qué estás haciendo?",
+  "Hoy hace un día soleado.",
+  "La vida es hermosa.",
+  "No hay lugar como el hogar."
+];
+
+// Función para seleccionar una oración aleatoria
+function seleccionarOracionAleatoria() {
+  var indiceAleatorio = Math.floor(Math.random() * oraciones.length);
+  return oraciones[indiceAleatorio];
+}
+
